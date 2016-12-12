@@ -11,5 +11,5 @@
 ##### 注册悬浮窗视图：
 recyclerView.setSuspendedView(tvShow);
 ##### 注册更新悬浮窗监听事件：
-（1）recyclerView.setSuspendedListener(new SuspendedRecyclerView.SuspendedListener());
-（2）实现SuspendedListener的changeSuspendedContent（int currentPosition）回调方法。
+#####（1）recyclerView.setSuspendedListener(new SuspendedRecyclerView.SuspendedListener());
+#####（2）实现SuspendedListener的changeSuspendedContent（int currentPosition）回调方法。
