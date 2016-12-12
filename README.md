@@ -11,9 +11,9 @@
 ##### 注册悬浮窗视图：
 recyclerView.setSuspendedView(tvShow);
 ##### 注册更新悬浮窗监听事件：
- recyclerView.setSuspendedListener(new SuspendedRecyclerView.SuspendedListener() {
-            @Override
-            public void changeSuspendedContent(int currentPosition) {
-                tvShow.setText(beanList.get(currentPosition).text);
-            }
-        });
+###### recyclerView.setSuspendedListener(new SuspendedRecyclerView.SuspendedListener() {
+######           @Override
+######           public void changeSuspendedContent(int currentPosition) {
+######               tvShow.setText(beanList.get(currentPosition).text);
+######          }
+######      });
